@@ -1,0 +1,65 @@
+body {
+  font-family: -apple-system, "Segoe UI", "Roboto", "Helvetica Neue", Arial,
+    sans-serif;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0;
+}
+
+h3 {
+  padding-top: 25px;
+  padding-bottom: 10px;
+  font-size: 1.3rem;
+}
+
+h4 {
+  font-size: 1.3rem;
+  line-height: 1.5;
+  padding-bottom: 30px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.ul-div-p {
+  display: flex;
+  justify-content: center;
+  text-align: justify;
+  margin-left: 450px;
+  margin-right: 450px;
+}
+
+.border-div {
+  text-align: center;
+  color: #333;
+  background-color: rgb(236, 236, 236);
+  margin-top: 30px;
+  padding-top: 20px;
+}
+
+.img-div {
+  background-color: rgb(255, 255, 255);
+  margin: 15px;
+  padding-bottom: 3px;
+  padding-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ul-div {
+  display: flex;
+  justify-content: center;
+  text-align: justify;
+  margin-left: 440px;
+  margin-right: 440px;
+}
+
+ul > li {
+  padding: 10px;
+}

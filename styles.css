@@ -1,6 +1,14 @@
 body {
   font-family: -apple-system, "Segoe UI", "Roboto", "Helvetica Neue", Arial,
     sans-serif;
+  background-color: #ffecef;
+}
+
+:root {
+  --main-black: #251b37;
+  --main-grey: #372948;
+  --main-pink: #ffcaca;
+  --main-lightpink: #ffecef;
 }
 
 h1 {
@@ -25,7 +33,7 @@ img {
   max-width: 100%;
   height: auto;
   border-radius: 5px;
-  border: 1px solid var(--border-color);
+  border: 3px solid #ffecef;
   margin: 0 auto;
 }
 
@@ -33,27 +41,32 @@ img {
   display: flex;
   justify-content: center;
   text-align: justify;
-  margin-left: 450px;
+  margin-left: 490px;
   margin-right: 450px;
+  padding-bottom: 20px;
 }
 
 .border-div {
   text-align: center;
-  color: #333;
-  background-color: rgb(236, 236, 236);
+  color: #ffecef;
+  background-color: #251b37;
   margin-top: 30px;
   padding-top: 20px;
   border-radius: 5px;
 }
 
 .img-div {
-  background-color: rgb(255, 255, 255);
+  background-color: #ffecef;
   margin: 15px;
   padding-bottom: 3px;
   padding-top: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+figcaption {
+  color: #251b37;
 }
 
 .ul-div {
@@ -66,4 +79,68 @@ img {
 
 ul > li {
   padding: 10px;
+  background-color: #ffecef;
+  color: #372948;
+  border-radius: 9px;
+  margin-bottom: 20px;
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  .ul-div {
+    margin-left: 200px;
+    margin-right: 200px;
+  }
+
+  .ul-div-p {
+    margin-left: 200px;
+    margin-right: 200px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .ul-div {
+    margin-left: 0px;
+    margin-right: 10px;
+  }
+
+  .ul-div-p {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .ul-div {
+    margin-left: 110px;
+    margin-right: 150px;
+  }
+
+  .ul-div-p {
+    margin-left: 150px;
+    margin-right: 150px;
+  }
+}
+
+@media screen and (min-width: 991px) and (max-width: 1200px) {
+  .ul-div {
+    margin-left: 200px;
+    margin-right: 200px;
+  }
+
+  .ul-div-p {
+    margin-left: 230px;
+    margin-right: 200px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .ul-div {
+    margin-left: 200px;
+    margin-right: 200px;
+  }
+
+  .ul-div-p {
+    margin-left: 250px;
+    margin-right: 250px;
+  }
 }
